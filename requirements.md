@@ -1,11 +1,6 @@
 # Requirements Specification
-
 **Project:** checkDK  
 **Tagline:** Predict. Diagnose. Fix – Before You Waste Time.  
-**Version:** 1.0  
-**Date:** February 6, 2026
-
----
 
 ## 1. Project Overview
 
@@ -225,9 +220,3 @@ checkDK intercepts Docker and Kubernetes commands (e.g., `checkDK docker compose
 - **Manifest:** Kubernetes configuration file
 - **Wrapper:** Software that intercepts and enhances existing commands
 - **Pass-through:** Forwarding commands to the original tool after processing
-
----
-
-**Document Status:** Draft  
-**Last Updated:** February 6, 2026  
-**Author:** Radhesh Pai & Dhanush Shenoy H
