@@ -181,12 +181,12 @@ elif command.startswith('kubectl apply'):
 │                    AI Analysis Layer                    │
 │                                                         │
 │  ┌─────────────────┐         ┌─────────────────┐        │
-│  │  Context Builder│────────▶│   LLM Service   │       │
+│  │  Context Builder│────────▶│   LLM Service   │        │
 │  └─────────────────┘         └─────────────────┘        │
 │          │                            │                 │
 │          │                            ▼                 │
 │          │                   ┌─────────────────┐        │
-│          └──────────────────▶│ Response Parser │       │
+│          └──────────────────▶│ Response Parser │        │
 │                               └─────────────────┘       │
 │                                        │                │
 │                                        ▼                │
